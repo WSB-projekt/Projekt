@@ -9,7 +9,9 @@ TaskListify is intended to be a user-friendly to-do list application, enabling u
 ## How?
 TaskListify will be developed using the following technologies:
 
-React.js: For building a responsive and interactive user interface, allowing seamless task management.
-Node.js: To handle server-side logic and manage API requests, ensuring smooth communication between the client and server.
-Express.js: As the web application framework for Node.js, facilitating the development of RESTful APIs for data interaction.
-MongoDB: As the database solution to store user-generated tasks and associated information, ensuring scalability and reliability.
+<ul>
+<li>React.js: For building a responsive and interactive user interface, allowing seamless task management.</li>
+<li>Node.js: To handle server-side logic and manage API requests, ensuring smooth communication between the client and server.</li>
+<li>Express.js: As the web application framework for Node.js, facilitating the development of RESTful APIs for data interaction.</li>
+<li>MongoDB: As the database solution to store user-generated tasks and associated information, ensuring scalability and reliability.
+</ul>
