@@ -25,7 +25,7 @@ router.post('/tasklistify', (async (req, res) => {
 	const NewTasklitify = await collection.insertOne({tasklistify, satus: false});
 
 	res.status(201).json({ tasklistify, status: false, _id: NewTasklitify.insertedId });
-});
+}));
 
 // DELETE /tasklistify/:id
 router.delete('/tasklistify/:id', async (req, res) => {
