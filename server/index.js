@@ -8,7 +8,8 @@ app.use(express.json());
 const router = require('./routes');
 app.use('/api', router);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
+
 
 async function startServer() {
     await connectToMongoDB();
