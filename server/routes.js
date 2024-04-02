@@ -18,14 +18,14 @@ router.get('/tasklistify', async (req, res) => {
 });
 
 // POST /tasklistify
-router.post('/tasklistify', (async (req, res) => {
+router.post('/tasklistify', async (req, res) => {
     const collection = getCollection();
     const { tasklistify } = req.body;
 
 	const NewTasklitify = await collection.insertOne({tasklistify, satus: false});
 
 	res.status(201).json({ tasklistify, status: false, _id: NewTasklitify.insertedId });
-}));
+});
 
 // DELETE /tasklistify/:id
 router.delete('/tasklistify/:id', async (req, res) => {
